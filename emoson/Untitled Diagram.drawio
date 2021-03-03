@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T14:25:18.341Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="y6_EvQk2_keRQXj8YvQY" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T14:28:11.631Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jxY1qtMIQaR_4A-66KZw" version="14.4.3" type="github">
   <diagram id="JHaTWVX0i-lWZitRwSfC" name="Page-1">
-    <mxGraphModel dx="677" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,7 +180,7 @@
         <mxCell id="ALFkqxRXxDszs7MNfKY9-98" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="337" y="1662" width="90" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="ALFkqxRXxDszs7MNfKY9-100" value="&lt;h1&gt;微信公众号与后台系统对接设计&lt;/h1&gt;&lt;p&gt;硬件控制器采集并上报数据（使用Http协议通信），后台进行告警判断，需要告警则向用户推送消息。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-100" value="&lt;h1&gt;微信公众号与后台系统对接设计&lt;/h1&gt;&lt;p&gt;用户公司系统中注册个人信息。关注公司微信公众号，用户在微信公众号的功能中选择账号绑定，公司系统收到用户openId与用户账户绑定，公司系统即可通过微信平台给改openId的用户推送消息&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="30" y="1760" width="730" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-107" value="注册(手机号)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" target="ALFkqxRXxDszs7MNfKY9-106">
@@ -191,7 +191,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ALFkqxRXxDszs7MNfKY9-102" value="后台系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-102" value="公司系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="265" y="1878" width="100" height="532" as="geometry" />
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="ALFkqxRXxDszs7MNfKY9-102">
