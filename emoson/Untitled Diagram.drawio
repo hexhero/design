@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T14:56:52.416Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="pLPpMAac1-CqmoOaKyK5" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T14:59:34.471Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="DS8qNAMg4c4Oe1o2cVhW" version="14.4.3" type="github">
   <diagram id="JHaTWVX0i-lWZitRwSfC" name="Page-1">
     <mxGraphModel dx="1185" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,8 +305,11 @@
         <mxCell id="ALFkqxRXxDszs7MNfKY9-136" value="为了加快不同国家地区的页面访问速度，此处可以使用阿里云CDN服务，在指定范围部署多个节点，用户访问距离他最近的节点获取数据，速度较快" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="535" y="3161.25" width="270" height="127.5" as="geometry" />
         </mxCell>
-        <mxCell id="ALFkqxRXxDszs7MNfKY9-138" value="&lt;h1&gt;前言&lt;/h1&gt;&lt;p&gt;该方案适用于项目早起快速成型和小范围使用， 大面积和广泛使用则需要进行优化。&lt;/p&gt;&lt;p&gt;第一： 大数据量的统计查询，及其消耗数据库性能，（此处可以使用缓存策略。&lt;/p&gt;&lt;p&gt;第二： 系统的可靠性不足，服务一旦宕机则无法继续提供服务，此处可以使用分布式方案解决&lt;/p&gt;&lt;p&gt;第三： 系统的IO瓶颈， 高并发访问情况下，会导致服务阻塞，此处可使用消息队列和CDN服务来解决&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="20" y="3360" width="730" height="120" as="geometry" />
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-139" value="&lt;h1&gt;前言&lt;/h1&gt;&lt;p&gt;该方案技术选型适用于项目早起快速成型和小范围使用， 大面积和广泛使用则需要进行优化。&lt;/p&gt;&lt;p&gt;第一： 大数据量的统计查询，及其消耗数据库性能，（此处可以使用缓存缓解。）&lt;/p&gt;&lt;p&gt;第二： 系统的可靠性不足，服务一旦宕机则无法继续提供服务，（此处可以使用分布式方案缓解）&lt;/p&gt;&lt;p&gt;第三： 系统的IO瓶颈， 高并发访问情况下，会导致服务阻塞，（此处可使用消息队列和CDN服务来缓解）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-340" width="800" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-140" value="软件概要设计&lt;br&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;杨斌&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-500" width="355" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
