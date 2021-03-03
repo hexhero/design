@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T14:28:11.631Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jxY1qtMIQaR_4A-66KZw" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T14:30:32.733Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="r6sfauyExnpuHsmWfusK" version="14.4.3" type="github">
   <diagram id="JHaTWVX0i-lWZitRwSfC" name="Page-1">
     <mxGraphModel dx="1185" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -265,6 +265,9 @@
               <mxPoint x="485" y="2320" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-123" value="&lt;h1&gt;数据报表&lt;/h1&gt;&lt;p&gt;根据要求，从数据库中查询并生成统计结果数据，发送至前端使用ECharts展示，示例：&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2460" width="730" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
