@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T13:47:08.904Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JjkKnj2TDcJyW8om1HAf" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T13:56:57.220Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="bzdBVK81E2BSpu8vnUcX" version="14.4.3" type="github">
   <diagram id="JHaTWVX0i-lWZitRwSfC" name="Page-1">
     <mxGraphModel dx="1422" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,6 +138,37 @@
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-48" value="&lt;h1&gt;流程设计&lt;/h1&gt;&lt;p&gt;客户数据表数据量庞大，将数据分表存储，按照客户编号和年费作维度进行分表。（注：在成本允许的情况下，建议使用大数据引擎进行存储和分析 Hadoop）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="40" y="980" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-51" value="后台服务" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-61" value="http协议" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ALFkqxRXxDszs7MNfKY9-58" target="ALFkqxRXxDszs7MNfKY9-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-58" value="硬件控制器" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-59" value="数据接收" style="html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1270" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-65" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ALFkqxRXxDszs7MNfKY9-64" parent="1" source="ALFkqxRXxDszs7MNfKY9-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="295" y="1290" />
+              <mxPoint x="375" y="1290" />
+              <mxPoint x="375" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-68" value="" style="endArrow=none;dashed=1;html=1;fontSize=12;" edge="1" parent="1" target="ALFkqxRXxDszs7MNfKY9-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="1610" as="sourcePoint" />
+            <mxPoint x="320" y="1220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
