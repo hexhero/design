@@ -1,17 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T13:39:53.946Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qggv3khZ9QOeoNrOA65X" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T13:45:52.490Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="4iqMdPgugfOyWPfw0Ekk" version="14.4.3" type="github">
   <diagram id="JHaTWVX0i-lWZitRwSfC" name="Page-1">
-    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ALFkqxRXxDszs7MNfKY9-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="100" width="220" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="fmQV6IIz-ANYhuj0cnn7-1" value="技术选型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="70" y="30" width="140" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="fmQV6IIz-ANYhuj0cnn7-2" value="客户信息表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="520" width="180" height="190" as="geometry" />
+          <mxGeometry x="60" y="590" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="fmQV6IIz-ANYhuj0cnn7-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fmQV6IIz-ANYhuj0cnn7-2" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -68,7 +65,7 @@
           <mxGeometry x="85" y="300" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-4" value="客户A-2021-数据表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="520" width="300" height="190" as="geometry" />
+          <mxGeometry x="290" y="590" width="300" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-5" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ALFkqxRXxDszs7MNfKY9-4">
           <mxGeometry y="30" width="300" height="30" as="geometry" />
@@ -116,13 +113,13 @@
           <mxGeometry x="30" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-36" value="&lt;b&gt;客户A-2020-数据表&lt;/b&gt;&lt;br&gt;……" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="740" width="300" height="40" as="geometry" />
+          <mxGeometry x="290" y="810" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-37" value="&lt;b&gt;客户B-2021-数据表&lt;/b&gt;&lt;br&gt;……" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="800" width="300" height="40" as="geometry" />
+          <mxGeometry x="290" y="870" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-38" value="&lt;b&gt;客户B-2020-数据表&lt;/b&gt;&lt;br&gt;……" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="850" width="300" height="40" as="geometry" />
+          <mxGeometry x="290" y="920" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-40" value="&lt;div style=&quot;resize: none ; outline: 0px ; font-size: 13px ; color: rgb(50 , 50 , 50)&quot;&gt;&lt;/div&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;PC端管理系统&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;基础框架[Vue+&lt;a href=&quot;https://element.faas.ele.me/#/zh-CN&quot;&gt;Element-ui&lt;/a&gt;] + 统计图表UI库[ECharts&amp;nbsp;&lt;a href=&quot;data:page/id,JHaTWVX0i-lWZitRwSfC&quot;&gt;demo&lt;/a&gt;]&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="100" width="420" height="60" as="geometry" />
@@ -133,8 +130,11 @@
         <mxCell id="ALFkqxRXxDszs7MNfKY9-44" value="&amp;nbsp;后台服务&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;SpringBoot&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="120" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ALFkqxRXxDszs7MNfKY9-45" value="数据库设计" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="70" y="440" width="140" height="40" as="geometry" />
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-46" value="&lt;h1&gt;数据库设计&lt;/h1&gt;&lt;p&gt;客户数据表数据量庞大，将数据分表存储，按照客户编号和年费作维度进行分表。（注：在成本允许的情况下，建议使用大数据引擎进行存储和分析 Hadoop）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-47" value="&lt;h1&gt;技术选型&lt;/h1&gt;&lt;p&gt;前期采用SpringBoot作为后台服务端框架，配置少，开发速度快，后期业务量上来后，进行微服务和分布式改造也较为方便， 微服务方案使用 Spring Cloud&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-40" width="730" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
