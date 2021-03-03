@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T13:45:52.490Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="4iqMdPgugfOyWPfw0Ekk" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T13:46:31.333Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Ztuq_rIFCxVgEdk-H2Iy" version="14.4.3" type="github">
   <diagram id="JHaTWVX0i-lWZitRwSfC" name="Page-1">
     <mxGraphModel dx="1422" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="ALFkqxRXxDszs7MNfKY9-47" value="&lt;h1&gt;技术选型&lt;/h1&gt;&lt;p&gt;前期采用SpringBoot作为后台服务端框架，配置少，开发速度快，后期业务量上来后，进行微服务和分布式改造也较为方便， 微服务方案使用 Spring Cloud&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="60" y="-40" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALFkqxRXxDszs7MNfKY9-48" value="&lt;h1&gt;用例设计&lt;/h1&gt;&lt;p&gt;客户数据表数据量庞大，将数据分表存储，按照客户编号和年费作维度进行分表。（注：在成本允许的情况下，建议使用大数据引擎进行存储和分析 Hadoop）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="980" width="730" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
